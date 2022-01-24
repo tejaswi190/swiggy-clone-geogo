@@ -1,0 +1,49 @@
+.cartemptymain{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+}
+.cartimage{
+    width: 271px;
+    height: 256px;
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/2xempty_cart_yfxml0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.emptyCartheading{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #535665;
+}
+.emptycartsubheading{
+    margin-top: 8px;
+    color: #7e808c;
+}
+.butogotohome{
+    margin-top: 30px;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    background-color: #fc8019;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    text-align: center;
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    transition: transform .8s cubic-bezier(.2,1,.2,1);
+}

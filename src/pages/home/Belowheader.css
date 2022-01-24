@@ -1,0 +1,30 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.main_header.container-fluid{
+    /* max-width: 1200px;
+    min-width: 1200px; */
+    position: relative;
+    margin: 0 auto;
+    height: 340px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    contain: layout;
+    background-color: #282c3f;
+    width: 100%;
+}
+.carousel{
+    min-width: 1200px;
+    max-width: 1200px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 10%;
+}

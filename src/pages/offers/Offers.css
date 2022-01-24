@@ -1,0 +1,57 @@
+
+.offersbox{
+    height: 300px;
+    background-color: #005062;
+}
+.offheadtext{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    height: 300px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.offmainhead{
+    font-size: 50px;
+    font-weight: 600;
+}
+.offsubhead{
+    font-size: 22px;
+    line-height: 1.2;
+    opacity: .8;
+}
+.offimg{
+    height: 200px;
+}
+.img{
+    border-style: none;
+}
+.typesofoff{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+
+}
+.restaurantoffs.active,
+.paymentoffs{
+    font-weight: 500;
+    color: #282c3f;
+}
+.restaurantoffs{
+    font-size: 20px;
+    padding: 24px 0 20px;
+    color: #93959f;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.paymentoffs{
+    font-size: 20px;
+    padding: 24px 0 20px;
+    color: #93959f;
+    margin-left: 24px;
+    cursor: pointer;
+}
